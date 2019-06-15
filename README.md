@@ -3,7 +3,7 @@
 Convert scientific notation to decimal notation at anytime while you browsing.
 
 ## How to install and use
-(taken from crazyClicker repo.)
+(taken from [crazyClicker](https://github.com/m-primo/crazyClicker) repo.)
 
 ### 1
 Go to google chrome extensions.
