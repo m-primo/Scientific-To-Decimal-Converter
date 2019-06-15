@@ -1,0 +1,123 @@
+:root {
+    --main-green: #4CAF50;
+    --main-blue: #008CBA;
+    --main-red: #f44336;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all 0.35s;
+}
+
+body {
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 400px;
+    overflow: hidden;
+}
+
+header, content, footer {
+    display: block;
+}
+
+form {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+input {
+    display: inline-block;
+    margin: 10px 3px;
+    border: 1px solid var(--main-green);
+    box-shadow: 0 0 4px 1px var(--main-green);
+    padding: 4px 6px;
+    color: var(--main-blue);
+    font-size: 14px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: #fff;
+    outline: 0;
+}
+
+input[readonly="readonly"] {
+    cursor: not-allowed;
+    opacity: 0.9;
+    width: 90%;
+}
+
+input:focus {
+    border: 1px solid var(--main-blue);
+    box-shadow: 0 0 4px 1px var(--main-blue);
+}
+
+hr {
+    border-color: var(--main-blue);
+}
+
+header h1,
+header h2 {
+    color: var(--main-green);
+}
+
+a {
+    color: var(--main-blue);
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+content {
+    margin: 35px auto;
+    border: 1px solid var(--main-blue);
+    width: 95%;
+    text-align: center;
+    box-shadow: 1px 0 7px 1px var(--main-blue);
+    border-radius: 7px;
+}
+
+#counter {
+    font-size: 26px;
+    color: var(--main-red);
+    border: 1px solid var(--main-blue);
+    border-radius: 50%;
+    padding: 20px 30px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-small {font-size: 12px; padding: 5px 12px;}
+
+.btn-green {background-color: var(--main-green);}
+.btn-blue {background-color: var(--main-blue);}
+.btn-red {background-color: var(--main-red);}
+.btn-gray {background-color: #e7e7e7; color: black;}
+.btn-black {background-color: #555555;}
+
+.btn-click {background-color: var(--main-green); color: #fff;}
+
+footer {
+    margin-bottom: 20px;
+}

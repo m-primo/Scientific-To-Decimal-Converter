@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Scientific To Decimal Converter</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+<header>
+    <h2>Scientific To Decimal Converter</h2>
+    <p>Convert scientific notation to decimal notation at anytime while you browsing.</p>
+</header>
+
+<content>
+
+    <form style="margin: 20px auto; padding: 5px;">
+        <input type="text" name="txtNumber" placeholder="123" />
+        <b>.</b>
+        <input type="text" name="txtNumbe2" placeholder="456789" />
+        <b>e+</b>
+        <input type="text" name="txtNumbe3" placeholder="8" />
+        <br>
+        <input type="text" name="txtResult" placeholder="0.000" readonly="readonly" />
+        <br>
+        <button type="button" class="btn btn-small btn-green" id="convertPositive">Convert</button>
+        <button class="btn btn-small btn-red" type="reset">Reset</button>
+    </form>
+
+    <hr>
+
+    <form style="margin: 20px auto; padding: 5px;">
+        <input type="text" name="txtNumber" placeholder="123" />
+        <b>.</b>
+        <input type="text" name="txtNumbe2" placeholder="456789" />
+        <b>e-</b>
+        <input type="text" name="txtNumbe3" placeholder="8" />
+        <br>
+        <input type="text" name="txtResult" placeholder="0.000" readonly="readonly" />
+        <br>
+        <button type="button" class="btn btn-small btn-green" id="convertNegative">Convert</button>
+        <button class="btn btn-small btn-red" type="reset">Reset</button>
+    </form>
+
+</content>
+    
+<footer>
+    <small><i>© 2019 Scientific To Decimal Converter V1.0 - <a href="https://mp-primo.blogspot.com/primo" target="_blank">Primo</a> - <a href="https://github.com/m-primo/Sci2Dec" target="_blank">GitHub</a> - All rights reserved.</i></small>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
