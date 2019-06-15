@@ -1,4 +1,4 @@
-# <img src="https://lh3.googleusercontent.com/-QmIZZvK2x0I/XQQ1Hlg-4sI/AAAAAAAAEf4/j5KuEmUNmsEFn9HEBtT3oyKE2GMaASZYgCLcBGAs/h120/icon.png"> Scientific To Decimal Converter
+# <img src="https://lh3.googleusercontent.com/-QmIZZvK2x0I/XQQ1Hlg-4sI/AAAAAAAAEf4/j5KuEmUNmsEFn9HEBtT3oyKE2GMaASZYgCLcBGAs/s64/icon.png"> Scientific To Decimal Converter
 
 Convert scientific notation to decimal notation at anytime while you browsing.
 
